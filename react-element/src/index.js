@@ -24,8 +24,9 @@ ReactDOM.render(
   //elements using JSX(JSX stands for JavaScript XML.
   // JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React)
   //behind the scene, bebeljs translates this to the same code as the upper one 
- <div>
-  <h1>Hello World!</h1>
+  //to add css, we have imported index.css. for class attribute, we need to use className
+ <div className="container1">
+  <h1 id="header1">Hello World!</h1>
   <ul>
   <li>Rose, Scientific Name: {scientificName.rose}</li>
      <li>Dahlia, Scientific Name: {scientificName.dahlia}</li>
