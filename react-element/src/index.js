@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+// js property
+let scientificName = {
+    rose: "Rosa",
+    dahlia: "Dahlia pinnata",
+    jasmine: "Jasminum"
+}
 
 ReactDOM.render(
 
@@ -21,9 +27,9 @@ ReactDOM.render(
  <div>
   <h1>Hello World!</h1>
   <ul>
-     <li>Rose</li>
-     <li>Dahlia</li>
-     <li>Jasmine</li>
+  <li>Rose, Scientific Name: {scientificName.rose}</li>
+     <li>Dahlia, Scientific Name: {scientificName.dahlia}</li>
+     <li>Jasmine, Scientific Name: {scientificName.jasmine}</li>
   </ul>
   </div>,
     document.getElementById('root')
